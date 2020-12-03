@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  height: 100vh;
+  background-image: linear-gradient(to right, #6e7880 0%, #384144 100%);
+  background-size: cover;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+video {
+  width: 1024px;
+  outline: none;
+  box-shadow: 1px 1px 20px 3px rgba(0, 0, 0, 0.5);
+}
+
+.speed-bar {
+  margin: 0 0 0 25px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px 3px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.speed-controller {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 25%;
+  color: white;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+  background: linear-gradient(-170deg, #2376ae 0%, #c16ecf 100%);
+}
